@@ -1,50 +1,108 @@
 /* main.css */
-#container{width: 100%; height: auto; background-color: #ccc;}
-
-#headBox{width: inherit; height: 100px; background-color: rgba(2, 41, 58, 0.7);}
+/* headBox --------------------------- */
+#headBox{}
 h1{}
 h1>a{}
+h1>a>span{}
 
 #gnb{}
 #gnb>ul{}
-#gnb>ul>li{float:left; }
+#gnb>ul>li{}
 #gnb>ul>li>a{}
-#gnb>ul>li>i{}
-#gnb>ul>li:hover{}
-#gnb dl{float: left;}
+
+#gnb dl{}
 #gnb dl>dt{}
 #gnb dl>dd{}
 #gnb dl>dd>a{}
+
 #gnb ol{}
 #gnb ol>li{}
 #gnb ol>li>a{}
 
+#gnb li>i{}
 
-
-
-
-
-#adbanner{width: inherit; height: 980px; background-color: #c9c;}
+/* adbanner -------------------------- */
+#adbanner{}
 #adbanner>h2{}
-.noticeWrap{}
 
+.btn{}
+.btn>button{}
 
-#contentBox_01{width: inherit; height: 100%; background-color: #f6f6f6; }
+.l_btn{}
+.r_btn{}
+
+#adbanner>ul{}
+#adbanner>ul>li{}
+
+/* contentBox_01 --------------------- */
+#contentBox_01{}
 #contentBox_01>h2{}
 #contentBox_01>p{}
 #contentBox_01>ul{}
 #contentBox_01>ul>li{}
 #contentBox_01>ul>li>a{}
 
+/* tipsWrap --------------------------- */
+#tipsWrap{}
+#tipsWrap>h2{}
+#tipsWrap>p{}
+#tipsWrap>button{}
 
-#tipsWrap{width:inherit;}
 
-#contentBox_02{background-color: #f6f6f6;}
 
-#videoWrap{width: inherit;}
+/* contentBox_02 --------------------- */
+#contentBox_02{}
+#contentBox_02>h2{}
+#contentBox_02>p{}
 
-#mapWrap{width: inherit;}
+#contentBox_02>ul{}
+#contentBox_02>ul>li{}
+#contentBox_02>ul>li>a{}
 
-#contentBox_03{background-color: #f6f6f6;}
 
-#footBox{width: inherit; background-color: #02293a;}
+/* videoWrap --------------------------*/
+#videoWrap{}
+
+/* mapWrap ----------------------------*/
+#mapWrap{}
+
+
+
+/* contentBox_03 --------------------- */
+#contentBox_03{}
+#contentBox_03>h2{}
+#contentBox_03>p{}
+#contentBox_03>ul{}
+#contentBox_03>ul>li{}
+#contentBox_03>button{}
+
+/* footBox -------------------------- */
+#footBox{}
+
+.otherWrap{}
+.otherWrap>dl{}
+.otherWrap>dl>dt{}
+.otherWrap>dl>dd{}
+.otherWrap>dl>dd>a{}
+
+.infoWrap{}
+.infoWrap>dl{}
+.infoWrap>dl>dt{}
+.infoWrap>dl>dd{}
+.infoWrap>dl>dd>a{}
+
+.langWrap{}
+.langWrap>ul{}
+.langWrap>ul>li{}
+.langWrap>ul>li>a{}
+
+.snsWrap{}
+.snsWrap>ul{}
+.snsWrap>ul>li{}
+.snsWrap>ul>li>a{}
+
+address{}
+address>p{}
+
+
+
