@@ -1,0 +1,50 @@
+/* main.css */
+#container{width: 100%; height: auto; background-color: #ccc;}
+
+#headBox{width: inherit; height: 100px; background-color: rgba(2, 41, 58, 0.7);}
+h1{}
+h1>a{}
+
+#gnb{}
+#gnb>ul{}
+#gnb>ul>li{float:left; }
+#gnb>ul>li>a{}
+#gnb>ul>li>i{}
+#gnb>ul>li:hover{}
+#gnb dl{float: left;}
+#gnb dl>dt{}
+#gnb dl>dd{}
+#gnb dl>dd>a{}
+#gnb ol{}
+#gnb ol>li{}
+#gnb ol>li>a{}
+
+
+
+
+
+
+#adbanner{width: inherit; height: 980px; background-color: #c9c;}
+#adbanner>h2{}
+.noticeWrap{}
+
+
+#contentBox_01{width: inherit; height: 100%; background-color: #f6f6f6; }
+#contentBox_01>h2{}
+#contentBox_01>p{}
+#contentBox_01>ul{}
+#contentBox_01>ul>li{}
+#contentBox_01>ul>li>a{}
+
+
+#tipsWrap{width:inherit;}
+
+#contentBox_02{background-color: #f6f6f6;}
+
+#videoWrap{width: inherit;}
+
+#mapWrap{width: inherit;}
+
+#contentBox_03{background-color: #f6f6f6;}
+
+#footBox{width: inherit; background-color: #02293a;}
