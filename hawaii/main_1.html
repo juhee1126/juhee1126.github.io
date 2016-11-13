@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="css/src/base.css">
   <!-- (>320) <767-->
   <link rel="stylesheet" href="css/src/mob.css">
+  <link rel="stylesheet" href="css/src/mob_min.css">
   <!-- 768< -->
   <link rel="stylesheet" href="css/src/tab.css">
   <!-- 980< -->
@@ -30,14 +31,17 @@
     $(function() {});
   </script>
 </head>
-<body role="document">                      
-	<header id="headBox" role="banner">
+<body>                      
+	<header id="headBox">
 		<h1><a href="index.html"><span>하와이 관광청</span></a></h1>
 		<nav id="gnb">
+		  <h2><button type="button"><i class="fa fa-bars" aria-hidden="true"></i>
+				<span>utility menu</span></button>
+			</h2>
 			<ul>
 				<li><a href="#">About</a>
 				  <dl>
-				  	<dt>Discover Hawaii</dt>
+				  	<dt></dt>
 				  	<dd><a href="#"></a></dd>
 				  	<dd><a href="#"></a></dd>
 				  	<dd><a href="#"></a></dd>
@@ -45,7 +49,7 @@
 				  	<dd><a href="#"></a></dd>
 				  </dl>
 				  <dl>
-				  	<dt>Island</dt>
+				  	<dt></dt>
 				  	<dd><a href="#"></a></dd>
 				  	<dd><a href="#"></a></dd>
 				  	<dd><a href="#"></a></dd>
@@ -76,28 +80,26 @@
 	</header> 
 
 
-
-
-
-  #ad_menu>ul>li*6>a[#]{ad_menu_$$}
-
-
-	<section id="adbanner">
-	  <h2 class="hidden">메인광고</h2>
-    <div class="btn l_btn"><button type="button">&lt;</button></div>
-    <div class="btn r_btn"><button type="button">&gt;</button></div>    
-    <ul>
-      <li><img src="" alt="">ad_01</li>
-      <li><img src="" alt="">ad_02</li>
-      <li><img src="" alt="">ad_03</li>
-      <li><img src="" alt="">ad_04</li>
-    </ul>
+	<section id="addBanner">
+	  <h2 class="hidden">광고 배너영역</h2>
+<!--     <div class="btn l_btn"><button type="button">&lt;</button></div>
+    <div class="btn r_btn"><button type="button">&gt;</button></div>  -->
+    <div id="bannerBox">
+<!--     	<ul>
+    		<li class="add_01">add_01</li>
+    		<li class="add_02">add_02</li>
+    		<li class="add_03">add_03</li>
+    		<li class="add_04">add_04</li>
+    	</ul> -->
+    </div>
 	</section>
 
 
 	<article id="contentBox_01">
-	  <h2>Hello, Hawaii</h2>
-	  <p></p>
+	  <div class="commonTitle">
+	    <h2>Hello, Hawaii</h2>
+	    <p>내용</p>	  	
+	  </div>
 	  <ul>
 	  	<li><a href="#"><img src="" alt="Island">Island</a></li>
 	  	<li><a href="#"><img src="" alt="Activities">Activities</a></li>
@@ -112,8 +114,10 @@
 	</article>
 
 	<article id="contentBox_02">
-		<h2>Things to do</h2>
-		<p></p>
+	  <div class="commonTitle">
+		  <h2>Things to do</h2>
+		  <p></p>
+	  </div>
 		<ul>
 			<li><a href="#"><span></span></a></li>
 			<li><a href="#"><span></span></a></li>
@@ -140,8 +144,10 @@
 	</article>
 
 	<article id="contentBox_03">
-		<h2>Insta Hawaii</h2>
-		<p></p>
+	  <div class="commonTitle">
+		  <h2>Insta Hawaii</h2>
+		  <p></p>
+	  </div>
 		<ul>
 			<li><img src="#" alt=""></li>
 			<li><img src="#" alt=""></li>
@@ -193,6 +199,6 @@
 	  </address>
 	</footer>
 
-  <script src="./js/src/"></script>
+  <script src="./js/src/addBanner.js"></script>
 </body>
 </html>
