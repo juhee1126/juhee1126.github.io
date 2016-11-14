@@ -1,0 +1,39 @@
+@media screen and (max-width: 767px){
+	#headBox{width: 100%; height: 6rem; padding: 1rem 1.25rem; box-sizing: border-box;}
+	h1{min-width: 8.125rem; width:21.773142vw; min-height:2.5rem; height: 8.604954vw;}
+	#gnb{min-width: 2.5rem; width:8.604954vw; min-height:2.5rem;  height:8.604954vw; float: right; }
+	#gnb>h2{width: 100%; height: auto;}
+	#gnb button{width: inherit; height:inherit; background-color: transparent;}
+	#gnb button>i{font-size:2.5rem; color:#fff;}
+	#gnb>ul{width: 0; height: 0; overflow: hidden;}
+	#gnb li{}
+
+
+	#addBanner{width: 100%; min-height: 17rem; height: 50vw;
+		background-color: #f84;}
+/* #contentBox_01 */
+	#contentBox_01{min-height: 44.8125rem; height: 100%;}
+
+
+
+/* #tipsWrap */
+	#tipsWrap{}
+
+
+/* #contentBox_02 */
+	#contentBox_02{width: 100%; min-height: 36.25rem; height: 75.619295vw; background-color: #cc9;}
+
+
+	#videoWrap{width: 100%; min-height: 37.1875rem; height: 77.574967vw;  background-color: #aa9;}
+	#mapWrap{width: 100%; min-height: 20.9375rem; height: 43.676662vw;  background-color: #8cf;}
+	#contentBox_03{}
+	#contentBox_03>ul{background-color: #999;}
+	#contentBox_03>ul>li{width: 14.375rem; height: 12.5rem; background-color: #976; margin: 0 auto; }
+
+	#footBox{width: 100%; min-height: 8.5625rem; height: 17.861799vw; background-color: #022939;}
+	#footBox>.snsWrap{}
+	.snsWrap>ul{}
+	.snsWrap>ul>li{float: left; background-color: #6a6a6a; border-radius: 50%;}
+	.snsWrap i{width:3.125rem; height: 3.125rem; color: #fff;  text-align: center; line-height: 2.5rem; font-size: 1.5rem;}
+  address{width: 0; height: 0; overflow: hidden;}
+}
