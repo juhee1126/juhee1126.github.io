@@ -1,9 +1,8 @@
 /*tab.css */
 @media screen and (min-width:768px) and (max-width:1023px) {
 
-	#headBox{width:100%; height: 6rem;box-sizing: border-box; 
-		padding: 1rem 1.25rem;}
-		h1{width:10.4375rem; height:4.125rem; }
+	#headBox{height: 6rem;}
+		h1{min-width:10.4375rem; width: 21.744791vw; min-height:4.125rem; height: 8.604954vw;}
 		#gnb{margin-top:1rem; float: right;}
 		#gnb>h2{width: 0; height: 0; overflow: hidden;}
 	  #gnb>ul{}
@@ -11,9 +10,9 @@
 
 
 /* #addBanner ------------------- */ 
-	#addBanner{width: 100%; height:50vw; background-color: #f54;
-		box-sizing: border-box; padding:0 2.8125rem; position: relative;}
-	.banner_btn{width: 58px; height: 58px;  
+	#addBanner{width: 100%; min-height:40.625rem; height: 84.635416vw; background-color: #f54;
+		box-sizing: border-box; padding:0 2.8125rem; }
+/*	.banner_btn{width: 58px; height: 58px;  
 		position: absolute; top: 50%; margin-top: -4.2rem; z-index:100; overflow: hidden;}
 		.banner_btn>button{width: 100%; height: 100%; background-color: #aaf; text-indent:-999rem;}
 		.banner_btn>button:focus, 	
@@ -24,7 +23,8 @@
 	.right_btn{right:1rem;}
 	.right_btn>button{transform:translateX(-1rem) rotate(45deg);}
 	
-	#bannerBox{display: none;}
+	#bannerBox{display: none;}*/
+	
 /* #content ----------------------- */
 /*	#content{width: 100%;height: auto; background-color: #f72; padding-bottom:2rem;}
 	#content::after{content:" "; display: block; clear: both;}
@@ -40,32 +40,41 @@
 		box-sizing:border-box; border:1rem solid #888;
 		display: none;}
 	#content>dl>dd:first-of-type{display: block;}*/
-#contentBox_01{height: 100%;}
+
+
+/* #contentBox_01 ------------------------------------------*/
+#contentBox_01{ background-color: #99f;}
+	#contentBox_01>ul{width: 60rem; height: 61.25rem; padding: 1.25rem; box-sizing: border-box; }
+	#contentBox_01>ul>li{float: left; margin-right: 11rem;}
+	  #contentBox_01>ul>li:last-child{margin-right: 0;}
 
 
 
 
-
-/*tips*/
-#tipsWrap{width: 100%; min-height: 18.75rem; height: 39.113428vw; background-color: #9c9;}
-
+/* #tipsWrap ------------------------------------------*/
+#tipsWrap{width: 100%; height: 300px; background-color: #9c9;}
 
 
 
+/* #contentBox_02 ------------------------------------------*/
 #contentBox_02{width: 100%; min-height: 36.25rem; height: 75.619295vw; background-color: #cc9;}
 
 
-#videoWrap{width: 100%; min-height: 37.1875rem; height: 77.574967vw;  background-color: #aa9;}
-#mapWrap{width: 100%; min-height: 20.9375rem; height: 43.676662vw;  background-color: #8cf;}
+#videoWrap{/*width: 100%; min-height: 37.1875rem; height: 77.574967vw;  background-color: #aa9;*/}
+#mapWrap{/*width: 100%; min-height: 20.9375rem; height: 43.676662vw;  background-color: #8cf;*/}
+
+#contentBox_03{width: 100%; min-height: 36.25rem; height: 75.619295vw;}
+#contentBox_03>ul>li{width: 14.375rem; height: 12.5rem; background-color: #976; margin: 0 auto; }
 
 /* #footBox ----------------------- */	
-	#footBox{width: 100%; height:11.25rem; }	
+	#footBox{width: 100%; height: 20vw; }	
   #footBox>.snsWrap{}
 	.snsWrap>ul{}
 	.snsWrap>ul>li{float: left; background-color: #6a6a6a; border-radius: 50%;}
-	.snsWrap i{width:3.125rem; height: 3.125rem; color: #fff;  text-align: center; line-height: 2.5rem; font-size: 1.5rem;}
-  address{}
+	.snsWrap i{width:3.125rem; height: 3.125rem; color: #fff;  text-align: center; line-height: 2.5rem; 
+		font-size: 1.5rem;}
+/*  address{}
   address>p{color: #fff;}
-
+*/
 	
 }/* tab.css

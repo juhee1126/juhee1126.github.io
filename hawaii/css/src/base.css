@@ -1,16 +1,17 @@
 /* base.css */
-
+body{/*position: absolute;*/}
 /* #headBox ------------------------------------ */
-#headBox{background-color: rgba(4,42,58,0.8); }
+#headBox{width: 100%; background-color: rgba(4,42,58,0.8); position: fixed; box-sizing: border-box; padding: 1rem 1.25rem;}
+#headBox>h1, #headBox>#gnb{margin-left:0 auto; margin-right:0 auto; }
 /*		h1{width:11.5625rem; height:1.125rem; float: left;}*/
-		h1{ float: left; background-color: #788;}
+		h1{ float: left; background-color: #999;}
 		h1>a{display: block; width: inherit; height: inherit; 
 			/*background-image: url("../../img/logo_w.png");
 			background-repeat:no-repeat; background-size:100%;
 			background-position:center;*/}
 		h1 span{display: block; width: 0; height: 0; overflow: hidden;}
 		h2 span{display: block; width: 0; height: 0; overflow: hidden;}
-
+    
 
 /*header{width: 100%; height: 5rem; background-color: #fa7; box-sizing: border-box; padding-top: 1rem;}
 h1{width: 9.375rem; height: 3rem; font-size: 2rem; color:#f07; float: left;}
@@ -26,9 +27,9 @@ nav>ul>li>a{display: block; line-height: 1.2rem; width: 100%; height: 100%; tran
 nav>ul>li>a:hover{font-size:1.3rem; font-weight: bold; color:#fff;}*/
 
     
-		#gnb{float: right; background-color: #999;}
+		#gnb{float: right; background-color: rgba(250,250,250,0.3);}
 		#gnb>ul{color: #fff; }
-		#gnb li{float: left; color: #fff; }
+/*		#gnb li{float: left; color: #fff; }*/
 		/*.gnb button{background-color: transparent;}
 		.gnb button>i{color:#fff;}
 		.gnb button>span{display: block; width: 0; height: 0; overflow: hidden;}
@@ -46,11 +47,27 @@ nav>ul>li>a:hover{font-size:1.3rem; font-weight: bold; color:#fff;}*/
 
 #addBanner{transition: all 0.3s;}
 
-#contentBox_01{width: 100%; transition: all 0.3s; background-color: #f6f6f6;}
-	.commonTitle{width: 100%; height: auto; background-color: #938;}
+#contentBox_01, #contentBox_02, #contentBox_03{width: 100%; height: auto; transition: all 0.3s; padding: 50px 0 80px; 
+	box-sizing: border-box;}
+	.commonTitle{width: 100%; height: 100px; background-color: #938;}
+  .commonTitle>h2{font-size: 1.5rem; background-color: #999;  margin-bottom: 10px;}
+  .commonTitle>>p{}
 
-#tipsWrap{transition: all 0.3s;}
-#contentBox_02{transition: all 0.3s;}
-#contentBox_03{transition: all 0.3s;}
+/*test*/
+  	#contentBox_01>ul{width: 180px; height:auto; background-color: rgba(250,250,250,0.6); margin: 0 auto;}
+	#contentBox_01>ul>li{width: 180px; height: 180px; margin-top: 60px; background-color: #ddd; float: left; margin-right: 11.875rem;}
+	#contentBox_01 img{width: 180px; height: 180px;}
+
+
+#tipsWrap{transition: all 0.3s; background-color: #99f;}
+
+/* #videoWrap ------------------------------------------*/
+	#videoWrap{width: 100%; min-height: 37.5rem; height: 58.59375vw;  background-color: #ca9; }
+	
+
+
+/* #mapWrap ------------------------------------------*/
+	#mapWrap{width: 100%; min-height: 18.75rem; height: 29.296875vw;  background-color: #8df;}
+
 
 #footBox{background-color: #022939;}
