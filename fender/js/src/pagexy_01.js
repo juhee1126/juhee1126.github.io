@@ -1,12 +1,15 @@
-// pagexy_01.js
+//  pagexy_01.js
 
-(function($){
+(function($) {
 	var winWidth = $(window).width();
-	$('#wrap').on('mousemove', function(e){
+	$('.bg_box').on('mousemove',function(e) {
 		var poX = e.pageX;
 		var poY = e.pageY;
- console.log(poX);
-		$('.front').css({transform:'translate('+poX/50+'%)'});
-		$('.back').css({transform:'translate('+-poX/50+'%)'});
+		// console.log(poX);
+		// console.log(poY);
+
+		$('.front').css({transform:'translate(' + poX/80 +'px'});
+		$('.back').css({transform:'translate(' + -poX/80 +'px'});
 	});
+
 })(this.jQuery);
