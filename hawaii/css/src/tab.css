@@ -2,7 +2,7 @@
 @media screen and (min-width:768px) and (max-width:1023px) {
 
 	#headBox{height: 6rem;}
-		h1{min-width:10.4375rem; width: 21.744791vw; min-height:4.125rem; height: 8.604954vw;}
+		h1{width:10.4375rem; height:4.125rem;}
 		#gnb{margin-top:1rem; float: right;}
 		#gnb>h2{width: 0; height: 0; overflow: hidden;}
 	  #gnb>ul{}
@@ -10,7 +10,7 @@
 
 
 /* #addBanner ------------------- */ 
-	#addBanner{width: 100%; min-height:40.625rem; height: 84.635416vw; background-color: #f54;
+	#addBanner{width: 100%; min-height:40rem; height: 83.333333vw;  background-color: #f54;
 		box-sizing: border-box; padding:0 2.8125rem; }
 /*	.banner_btn{width: 58px; height: 58px;  
 		position: absolute; top: 50%; margin-top: -4.2rem; z-index:100; overflow: hidden;}
@@ -43,25 +43,27 @@
 
 
 /* #contentBox_01 ------------------------------------------*/
-#contentBox_01{ background-color: #99f;}
-	#contentBox_01>ul{width: 60rem; height: 61.25rem; padding: 1.25rem; box-sizing: border-box; }
-	#contentBox_01>ul>li{float: left; margin-right: 11rem;}
+#contentBox_01{ background-color: #f9d;}
+	#contentBox_01>ul{width: 60rem; height: 30rem; padding: 1.25rem; box-sizing: border-box; }
+	#contentBox_01>ul>li{width: 11.25rem; height: 11.25rem; float: left; margin-right: 11rem; }
 	  #contentBox_01>ul>li:last-child{margin-right: 0;}
 
 
 
 
 /* #tipsWrap ------------------------------------------*/
-#tipsWrap{width: 100%; height: 300px; background-color: #9c9;}
+#tipsWrap{width: 100%; height: 18.75rem; }
 
 
 
 /* #contentBox_02 ------------------------------------------*/
-#contentBox_02{width: 100%; min-height: 36.25rem; height: 75.619295vw; background-color: #cc9;}
+#contentBox_02{width: 100%; height: 61.25rem; background-color: #cc9;}
 
 
-#videoWrap{/*width: 100%; min-height: 37.1875rem; height: 77.574967vw;  background-color: #aa9;*/}
-#mapWrap{/*width: 100%; min-height: 20.9375rem; height: 43.676662vw;  background-color: #8cf;*/}
+#videoWrap{width: 100%; height: 37.5rem;  background-color: #aa9;}
+
+
+#mapWrap{width: 100%; height: 18.75rem; background-color: #8df;}
 
 #contentBox_03{width: 100%; min-height: 36.25rem; height: 75.619295vw;}
 #contentBox_03>ul>li{width: 14.375rem; height: 12.5rem; background-color: #976; margin: 0 auto; }
@@ -73,6 +75,8 @@
 	.snsWrap>ul>li{float: left; background-color: #6a6a6a; border-radius: 50%;}
 	.snsWrap i{width:3.125rem; height: 3.125rem; color: #fff;  text-align: center; line-height: 2.5rem; 
 		font-size: 1.5rem;}
+	address{width:auto;height:auto;}
+  address>p{color: #fff; font-size: 1rem;text-align:center;margin:0 auto;}
 /*  address{}
   address>p{color: #fff;}
 */

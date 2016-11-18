@@ -44,30 +44,48 @@ nav>ul>li>a:hover{font-size:1.3rem; font-weight: bold; color:#fff;}*/
 
 		.gnb li, .gnb a{color:#fff; text-transform:uppercase; word-spacing:-0.2rem;}
 		.gnb span{color:#ff232a;}*/
-
+/* #addBanner ------------------------------------------ */
 #addBanner{transition: all 0.3s;}
 
-#contentBox_01, #contentBox_02, #contentBox_03{width: 100%; height: auto; transition: all 0.3s; padding: 50px 0 80px; 
-	box-sizing: border-box;}
+
+
+/* #contentBox_01 ------------------------------------------*/
+#contentBox_01{width: 100%; padding: 80px 0px; box-sizing: border-box;}
 	.commonTitle{width: 100%; height: 100px; background-color: #938;}
   .commonTitle>h2{font-size: 1.5rem; background-color: #999;  margin-bottom: 10px;}
   .commonTitle>>p{}
+ 
+  #contentBox_01>ul{ background-color: rgba(250,250,250,0.6); margin: 0 auto;}
+	#contentBox_01>ul>li{ /*margin-top: 60px;*/ background-color: #ddd; float: left; margin-right: 11.875rem;}
+	#contentBox_01 img{}
 
-/*test*/
-  	#contentBox_01>ul{width: 180px; height:auto; background-color: rgba(250,250,250,0.6); margin: 0 auto;}
-	#contentBox_01>ul>li{width: 180px; height: 180px; margin-top: 60px; background-color: #ddd; float: left; margin-right: 11.875rem;}
-	#contentBox_01 img{width: 180px; height: 180px;}
+/* #tipsWrap ------------------------------------------*/
+#tipsWrap{transition: all 0.3s; background-color: #94f;}
 
 
-#tipsWrap{transition: all 0.3s; background-color: #99f;}
+/* #contentBox_02 ------------------------------------------*/
+#contentBox_02{width: 100%; padding: 80px 0px; box-sizing: border-box; transition: all 0.3s;}
+#contentBox_02>ul{background-color: rgba(250,250,250,0.6); margin:0 auto; margin-top: 60px;}
+#contentBox_02 li:nth-child(1){background-color: #899;}
+#contentBox_02 li:nth-child(2){background-color: #708;}
+#contentBox_02 li:nth-child(3){background-color: #697;}
+
+
 
 /* #videoWrap ------------------------------------------*/
-	#videoWrap{width: 100%; min-height: 37.5rem; height: 58.59375vw;  background-color: #ca9; }
+	#videoWrap{width: 100%;  background-color: #ca9; transition: all 0.3s;}
 	
 
 
 /* #mapWrap ------------------------------------------*/
-	#mapWrap{width: 100%; min-height: 18.75rem; height: 29.296875vw;  background-color: #8df;}
+	#mapWrap{width: 100%; background-color: #8df;}
 
 
+
+
+/* #contentBox_03 ------------------------------------------*/
+#contentBox_03{width: 100%; padding: 80px 0px; box-sizing: border-box; transition: all 0.3s; transition: all 0.3s;}
+
+
+/* #footBox ------------------------------------------*/
 #footBox{background-color: #022939;}
