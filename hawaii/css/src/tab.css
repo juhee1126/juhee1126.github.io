@@ -60,7 +60,11 @@
 #contentBox_02{width: 100%; height: 61.25rem; background-color: #cc9;}
 
 
-#videoWrap{width: 100%; height: 37.5rem;  background-color: #aa9;}
+
+
+
+/* #videoWrap ------------------------------------------*/
+#videoWrap{width: 100%; min-height: 31.25rem; height: 65.104166vw; background-color: #aa9;}
 
 
 #mapWrap{width: 100%; height: 18.75rem; background-color: #8df;}

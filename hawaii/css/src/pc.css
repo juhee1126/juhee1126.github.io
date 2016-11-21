@@ -82,7 +82,7 @@
 
 #contentBox_02{width: 100%; height: 61.25rem; background-color: #cc9;}
 #contentBox_02>ul{}
-#contentBox_02>ul>li{width: 315px; height: 215px; border: 1px solid #333; float: left;}
+/*#contentBox_02>ul>li{width: 315px; height: 215px; border: 1px solid #333; float: left;}*/
 
 /* #footbox -------------------- */	
 	#footBox{width:100%; height:10vw;}

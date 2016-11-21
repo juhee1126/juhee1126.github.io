@@ -36,7 +36,7 @@
 
 /*#neckTitleBox*/
 	#neckTitleBox{width:550px; height:180px; margin: 160px 360px 80px; margin-right: 0; 
-		background-repeat: no-repeat; background-size:50%; background-image: url("../../img/title/neckTitle.png"); }
+		background-repeat: no-repeat; background-size:50%; background-image: url("../../img/title/neckTitle.png"); display: none;}
 
 /*#neckTextBox------------------------------------*/
 

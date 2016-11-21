@@ -98,7 +98,7 @@ $(function() {
 
 
 	    // scroll 위치에 따른 배경색상 변경
-	$('#snb li').eq(0).css({'backgroundColor':'#ff0000'});
+	$('#snb li').eq(0).css({'backgroundColor':'#ff0000'}) // 최초페이지 서브네비 색 표시
 	$(window).on('scroll', function() {
 		var scroll_top = $(window).scrollTop();
 		// headbox.addClass('fix');
@@ -137,6 +137,49 @@ $(function() {
 		}else{
 			$('#snb li').eq(4).css({'backgroundColor':'#fff'});
 		}
+
+	});
+// snb 클릭시 해당 페이지 색 변경 
+	
+	// $('#snb li').eq(0).css({'backgroundColor':'#ff0000'});
+	$('#snb').find('li').on('click', function() {
+		var scroll_top = $(window).scrollTop();
+		// headbox.addClass('fix');
+		// console.log(head_offset);
+		// console.log(scroll_top);
+		if(scroll_top == mainBox_offset){
+			$('#mainBox').stop().animate({'backgroundColor':'#1C1F22'},1000);
+			$('#snb li').eq(0).css({'backgroundColor':'#ff0000'});
+		}else{
+			$('#snb li').eq(0).css({'backgroundColor':'#fff'});
+		}
+
+		if(scroll_top == bodyBox_offset){
+			$('#bodyBox').find('p').fadeIn(1000);
+			$('#bodyBox').stop().animate({'backgroundColor':'#360E1A'},1000);
+			$('#snb li').eq(1).css({'backgroundColor':'#ff0000'});
+		}else{
+			$('#snb li').eq(1).css({'backgroundColor':'#fff'});
+		}
+		
+		if(scroll_top == neckBox_offset){
+			$('#neckBox').stop().animate({'backgroundColor':'#09152B'},1000);
+			$('#snb li').eq(2).css({'backgroundColor':'#ff0000'});
+		}else{
+			$('#snb li').eq(2).css({'backgroundColor':'#fff'});
+		}
+		if(scroll_top == elecBox_offset){
+			$('#elecBox').stop().animate({'backgroundColor':'#1C1F22'},1000);
+			$('#snb li').eq(3).css({'backgroundColor':'#ff0000'});
+		}else{
+			$('#snb li').eq(3).css({'backgroundColor':'#fff'});
+		}
+		if(scroll_top == hardBox_offset){
+			$('#hardBox').stop().animate({'backgroundColor':'#46262E'},1000);
+			$('#snb li').eq(4).css({'backgroundColor':'#ff0000'});
+		}else{
+			$('#snb li').eq(4).css({'backgroundColor':'#fff'});
+		}		
 
 		if(scroll_top >= neckBox_offset){
 			// 첫번째 방법(delay기능을 이용하여 시간순으로 나타나기)
