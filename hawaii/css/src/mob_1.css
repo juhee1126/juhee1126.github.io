@@ -1,28 +1,31 @@
 @media screen and (max-width: 767px){
 	#headBox{min-height: 4.5rem; height: 9.387222vw;}
 	h1{min-width: 2.5rem; width: 21.744791vw; min-height: 2.5rem; height: 5.215123vw;}
-	#gnb{min-width: 6.25rem; width:13.037809vw; min-height:2.5rem;  height:5.215123vw; 
-		float: right; }
-	#gnb>h2{min-width: 2.5rem; width: 5.215123vw; min-height: 2.5rem; height: 5.215123vw;
-		float: right;}
+	#gnb{min-width: 6.25rem; width:13.037809vw; min-height:2.5rem;  height:5.215123vw; float: right; }
+	#gnb>h2{min-width: 2.5rem; width: 5.215123vw; min-height: 2.5rem; height: 5.215123vw; float: right;}
 	#gnb button{width: inherit; height:inherit; background-color: transparent;}
-	#gnb button>i{font-size:2.5rem; color:#fff;}
+	#gnb button>i{font-size:2rem; color:#fff; text-align: center; }
 	#gnb>ul{min-width: 2.5rem; width: 5.215123vw; min-height: 2.5rem; height: 5.215123vw;}
-	#gnb li{}
-	#gnb .search>li{font-size: 2.5rem; color: #fff;}
+	#gnb li{display: none;}
+	#gnb .search{min-width: 2.5rem; width: 5.215123vw; min-height: 2.5rem; height: 5.215123vw; display: block;}
+	#headBox .search>button>i{font-size: 2rem; color: #fff;}
 
 
 /* #addBanner ------------------------------------------ */
-	#addBanner{width: 100%; min-height: 27.125rem; height: 56.584093vw;
-		background-color: #f84;}
+	#addBanner{width: 100%; min-height: 27.125rem; height: 56.584093vw;}
 
 
 
 
 /* #contentBox_01 ------------------------------------------*/
-	#contentBox_01{width: 100%; min-height:68.75rem; height: 143.415906vw; background-color: #f6f6c6;}
+	#contentBox_01{width: 100%; min-height:68.75rem; height: 143.415906vw;}
+  .commonTitle{width: calc(100% - 30px); height: 100px; text-align:center; margin: 0 auto;}
+  .commonTitle>h2{font-size: 1.5rem;}
+  .commonTitle>p{}
+
 	#contentBox_01>ul{width: 180px;  margin: 0 auto;}
-	#contentBox_01>ul>li{margin-top: 50px;}
+	#contentBox_01>ul>li{}
+	#contentBox_01 a{}
 	#contentBox_01 img{width: 180px; height: 180px;}
 
 
@@ -32,41 +35,51 @@
 
 
 /* #contentBox_02 ------------------------------------------*/
-	#contentBox_02{width: 100%; min-height: 68.75rem; height: 143.415906vw; background-color: #cc9;}
-  #contentBox_02>ul{margin-top: 50px;}
-  #contentBox_02>ul>li{width: 100%; height: 150px; margin-top: 10px; background-color: #ddc; 
-  	box-sizing: border-box; border-bottom: 1px solid #333; position: relative;}
+	#contentBox_02{width: 100%; min-height: 68.75rem; height: 143.415906vw;}
+  #contentBox_02>ul{width: calc(100% - 30px); margin-top: 50px; border: 1px solid #333;}
+  #contentBox_02>ul>li{width: 100%; height: 9.375rem; margin-bottom: 10px; background-color: #ddc; box-sizing: border-box; 
+  	position: relative;}
   #contentBox_02>ul>li:last-child{margin-bottom: 0;}
   #contentBox_02 img{display: block; width: 100%; height: 100%;}
-  #contentBox_02 .hover{width: 100%; height: 100%; color: #fff; text-align:center; /*padding: ; 
-  	box-sizing: border-box;*/  position: absolute; z-index: 100; top: 0; left: 0; 
-  	background-color:rgba(0,0,0,0.5); /*transition:opacity .5s ease-out;*/}
+  #contentBox_02 .hover{ }
   #contentBox_02 .conboxTit{}
 
 
 
 /* #videoWrap ------------------------------------------*/
-	
-	#videoWrap{min-height: 25rem; height: 52.151238vw; background-color: #aa9;}
+	#videoWrap{min-height: 25rem; height: 52.151238vw; background-image: url("");}
+	#videoWrap>h2{}
+	#videoWrap>video{}
+	#videoWrap>a{}
+	#videoWrap>a>i{}
 	
 
 
 /* #mapWrap ------------------------------------------*/
-	#mapWrap{min-height: 13rem; height: 32.89424vw; background-color: #8cf; }
+	#mapWrap{min-height: 13rem; height: 32.89424vw;}
+	#mapWrap>img{height: inherit;}
 
 
 /* #contentBox_03 ------------------------------------------*/
-	#contentBox_03{min-height: 68.75rem; height: 143.415906vw; background-color: #499;}
-	#contentBox_03>ul{margin: 0 auto;padding: 8px; box-sizing: border-box;}
-	#contentBox_03>ul>li{width: 102px; height: 102px; background-color: #976; margin: 0 auto; float: left; }
-  #contentBox_03>button{}
-
+	#contentBox_03{min-height: 50rem; height: 221.642764vw;}
+	#contentBox_03>ul{width: calc(100% - 30px); height: 80%; border: 1px solid #938; margin: 50px auto 0;}
+	#contentBox_03>ul>li{min-width: 6.25rem; width: 50%; min-height: 6.25rem; height: 39.113428vw; float: left;}
+	#contentBox_03>ul>li:nth-child(1){}
+  #contentBox_03>ul>li:nth-child(2){}
+  #contentBox_03>ul>li:nth-child(3){}
+  #contentBox_03>ul>li:nth-child(4){}
+  #contentBox_03>ul>li:nth-child(5){}
+  #contentBox_03>ul>li:nth-child(6){}
+  #contentBox_03>ul>li:nth-child(7){}
+  #contentBox_03>ul>li:nth-child(8){}
+  #contentBox_03>ul>li>img{}
 
 /* #footBox ------------------------------------------*/
-	#footBox{width: 100%; min-height: 8.5625rem; height: 17.861799vw;}
-	#footBox>.snsWrap{width: 15rem; height: 3.125rem; background-color: #999; padding-top: 30px; box-sizing: border-box; margin: 0 auto; }
+	#footWrap{min-height: 8rem; height: 19.556714vw;}
+	.otherWrap, .infoWrap, .langWrap{display: none;}
+	#footWrap .snsWrap{width: 8rem; height: 3rem; margin: 0 auto;}
 	.snsWrap>ul{}
-	.snsWrap>ul>li{float: left; background-color: #6a6a6a; border-radius: 50%;}
-	.snsWrap i{width:3.125rem; height: 3.125rem; color: #fff;  text-align: center; line-height: 2.5rem; font-size: 1.5rem;}
-  address{width: 0; height: 0; overflow: hidden;}
-}
+	.snsWrap>ul>li{}
+	.snsWrap i{}
+	address{margin-top: 10px;}
+  address>p{min-width: 0; min-height: 0; text-align:center;}

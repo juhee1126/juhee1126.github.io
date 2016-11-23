@@ -5,7 +5,7 @@ div, p, pre, img, ul, ol, li, dt, dd, dl,
 form, fieldset, legend, table, tr, td, th, 
 input, button, textarea, i, em{margin: 0; padding: 0; border: 0;
  font-style:normal; font-size:100%; line-height:1.2; color:#333;
- font-family:"myriad pro", arial, "맑은고딕", malgunGothic,"돋움", dotum, sans-serif;}
+ font-family:'Roboto', arial, "맑은고딕", malgunGothic, sans-serif;}
 ul,ol,li{list-style: none;}
 a{text-decoration: none; color:#555;}
 table, thead, tbody, tfoot, tr, td, th { 

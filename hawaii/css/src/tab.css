@@ -3,86 +3,78 @@
 
 	#headBox{height: 6rem;}
 		h1{width:10.4375rem; height:4.125rem;}
-		#gnb{margin-top:1rem; float: right;}
+		#gnb{width: 500px; margin-top: 31px; float: right; background-color: rgba(250,250,250,0.3);}
 		#gnb>h2{width: 0; height: 0; overflow: hidden;}
-	  #gnb>ul{}
-	  #gnb li{float: left;}
+	  #gnb>ul{height: 34px; }
+	  #gnb li{}
+	  #gnb li>a{}
+    .search>button{}
+    .search>button>i{}
 
 
 /* #addBanner ------------------- */ 
-	#addBanner{width: 100%; min-height:40rem; height: 83.333333vw;  background-color: #f54;
-		box-sizing: border-box; padding:0 2.8125rem; }
-/*	.banner_btn{width: 58px; height: 58px;  
-		position: absolute; top: 50%; margin-top: -4.2rem; z-index:100; overflow: hidden;}
-		.banner_btn>button{width: 100%; height: 100%; background-color: #aaf; text-indent:-999rem;}
-		.banner_btn>button:focus, 	
-		.banner_btn>button:hover{outline: 0; background-color: #cca;}
-
-	.left_btn{left:1rem;}
-	.left_btn>button{transform:translateX(1rem) rotate(45deg);}
-	.right_btn{right:1rem;}
-	.right_btn>button{transform:translateX(-1rem) rotate(45deg);}
-	
-	#bannerBox{display: none;}*/
-	
-/* #content ----------------------- */
-/*	#content{width: 100%;height: auto; background-color: #f72; padding-bottom:2rem;}
-	#content::after{content:" "; display: block; clear: both;}
-	#content>dl{width: calc(100% / 3); height: auto; float: left; box-sizing:border-box;
-		padding:0 0.5rem;}
-	#content>dl>dt{text-transform: uppercase; font-size:1.5rem; 
-		margin-top: 1.25rem; margin-bottom: 0.5rem;}
-	#content>dl>dt::before{content:" "; display:inline-block;
-		width:1.375rem; height:1.375rem; margin-right: 0.5rem;
-		background-image: url("../../img/content_icon.png"); }
-	#content>dl>dd{width: 100%; min-height:10rem; height:20.833333vw; 
-		background-color: #fff;
-		box-sizing:border-box; border:1rem solid #888;
-		display: none;}
-	#content>dl>dd:first-of-type{display: block;}*/
-
+	#addBanner{width: 100%; min-height:40rem; height: 83.333333vw; box-sizing: border-box; padding:0 2.8125rem; }
 
 /* #contentBox_01 ------------------------------------------*/
-#contentBox_01{ background-color: #f9d;}
-	#contentBox_01>ul{width: 60rem; height: 30rem; padding: 1.25rem; box-sizing: border-box; }
-	#contentBox_01>ul>li{width: 11.25rem; height: 11.25rem; float: left; margin-right: 11rem; }
-	  #contentBox_01>ul>li:last-child{margin-right: 0;}
+  #contentBox_01{}
+  .commonTitle{width: calc(100% - 30px); height: 100px; text-align:center; margin: 0 auto;}
+  .commonTitle>h2{}
+  .commonTitle>p{}
 
-
+  #contentBox_01{ background-color: #f9d;}
+	#contentBox_01>ul{width: calc(100% - 30px); height: 30rem; padding: 1.25rem; box-sizing: border-box; }
+	#contentBox_01>ul>li{/*width: 11.25rem;*/min-width: 9.375rem; width: 23.4375vw; height: 11.25rem; float: left; margin-right: 11rem; }
+	#contentBox_01>ul>li:last-child{margin-right: 0;}
+  #contentBox_01 a{ background-color: #888;}
+  #contentBox_01 img{}
 
 
 /* #tipsWrap ------------------------------------------*/
-#tipsWrap{width: 100%; height: 18.75rem; }
-
-
+  #tipsWrap{width: 100%; height: 18.75rem; }
+  #tipsWrap h2{width: 960px; height: 6.25rem;}
+  #tipsWrap img{width: inherit; height: inherit;}
 
 /* #contentBox_02 ------------------------------------------*/
-#contentBox_02{width: 100%; height: 61.25rem; background-color: #cc9;}
-
-
-
-
+  #contentBox_02{width: 100%; height: 61.25rem;}
+  #contentBox_02>ul{width: calc(100% - 30px); margin-top: 50px; border: 1px solid #333;}
+  #contentBox_02>ul>li{background-color: #ddc; box-sizing: border-box; border-bottom: 1px solid #333; position: relative; float: left;}
+  #contentBox_02>ul>li:first-child{width: 100%; height: 300px; margin-bottom: 10px;}	
+  #contentBox_02>ul>li:nth-child(2){margin-bottom: 10px;}
+  #contentBox_02>ul>li:nth-child(2), #contentBox_02>ul>li:nth-child(3), #contentBox_02>ul>li:nth-child(4), #contentBox_02>ul>li:last-child{
+  	width: -webkit-calc(50% - 5px); 
+  	width: -moz-calc(50% - 5px);
+  	width: -ms-calc(50% - 5px);
+  	width: -o-calc(50% - 5px);
+  	width: calc(50% - 5px);
+  	height: 200px; }	
+  #contentBox_02>ul>li:nth-child(3){float: right; margin-bottom: 10px;}	
+  #contentBox_02>ul>li:nth-child(4){}	
+  #contentBox_02>ul>li:last-child{float: right;}	
+  #contentBox_02>ul>li:last-child{margin-bottom: 0;}
+  #contentBox_02 img{display: block; width: 100%; height: 100%;}
+  #contentBox_02 .hover{ }
+  #contentBox_02 .conboxTit{}
 
 /* #videoWrap ------------------------------------------*/
-#videoWrap{width: 100%; min-height: 31.25rem; height: 65.104166vw; background-color: #aa9;}
+  #videoWrap{width: 100%; min-height: 31.25rem; height: 65.104166vw;}
 
+/* #mapWrap ------------------------------------------*/
+  #mapWrap{width: 100%; height: 18.75rem;}
+  #mapWrap>img{height: inherit;}
 
-#mapWrap{width: 100%; height: 18.75rem; background-color: #8df;}
-
-#contentBox_03{width: 100%; min-height: 36.25rem; height: 75.619295vw;}
-#contentBox_03>ul>li{width: 14.375rem; height: 12.5rem; background-color: #976; margin: 0 auto; }
+/* #contentBox_03 ------------------------------------------*/
+  #contentBox_03{min-height: 50rem; height: 75.619295vw;}
+  #contentBox_03>ul{width: calc(100% - 30px); margin: 50px auto 0;}
+  #contentBox_03>ul>li{min-width: 6.25rem; width:25%; /*min-height: 12.5rem;*/ height: 15.625rem; float: left;}
 
 /* #footBox ----------------------- */	
-	#footBox{width: 100%; height: 20vw; }	
-  #footBox>.snsWrap{}
-	.snsWrap>ul{}
-	.snsWrap>ul>li{float: left; background-color: #6a6a6a; border-radius: 50%;}
-	.snsWrap i{width:3.125rem; height: 3.125rem; color: #fff;  text-align: center; line-height: 2.5rem; 
-		font-size: 1.5rem;}
-	address{width:auto;height:auto;}
-  address>p{color: #fff; font-size: 1rem;text-align:center;margin:0 auto;}
-/*  address{}
-  address>p{color: #fff;}
-*/
-	
-}/* tab.css
+  #footWrap{width:100%; min-height: 8rem; height: 19.53125vw;}
+  .footBox{width: calc(100% - 30px);}
+    .otherWrap, .infoWrap, .langWrap{display: none;}
+    .snsWrap{width: 8rem; height: 3rem; margin: 0 auto;}
+    .snsWrap>ul{ background-color: #989;}
+    .snsWrap>ul>li{}
+    .snsWrap>ul>li:last-child{}
+    .snsWrap i{}
+	  address{width:auto; height:auto; margin-top: 10px;}
+    address>p{text-align:center;}
