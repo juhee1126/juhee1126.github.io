@@ -4,7 +4,7 @@ html, body, h1, h2, h3, h4, h5, h6,
 div, p, pre, img, ul, ol, li, dt, dd, dl, 
 form, fieldset, legend, table, tr, td, th, 
 input, button, textarea, i, em{margin: 0; padding: 0; border: 0;
- font-style:normal; font-size:100%; line-height:1.2; color:#333;
+ font-style:normal; font-size:100%; line-height:1.2; color:#444;
  font-family:'Roboto', arial, "맑은고딕", malgunGothic, sans-serif;}
 ul,ol,li{list-style: none;}
 a{text-decoration: none; color:#555;}
