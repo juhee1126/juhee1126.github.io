@@ -9,7 +9,7 @@
   .cateBox fieldset{}
   .cateBox legend{width: 0; height: 0; overflow: hidden; display: block;}
   .cateBox label{display: block; width: 0; height: 0; overflow: hidden;}
-  .cateBox select{float: right;}
+  .cateBox select{width: 100px; height: 25px;float: right;}
   .cateBox>ul{width: 50%; height: auto;  float: left; padding: 2rem 0; margin-top: 2rem;
       box-sizing:border-box; /*background-color: #8da;*/}
 
