@@ -70,8 +70,9 @@
 /* #footBox ----------------------- */	
   #footWrap{width:100%; min-height: 8rem; height: 19.53125vw;}
   .footBox{width: calc(100% - 30px);}
-    .otherWrap, .infoWrap, .langWrap{display: none;}
+    .otherWrap, .infoWrap, .localWrap{display: none;}
     .snsWrap{width: 8rem; height: 3rem; margin: 0 auto;}
+    .snsWrap>ul>h3{width: 0; height: 0; overflow: hidden;}
     .snsWrap>ul{ background-color: #989;}
     .snsWrap>ul>li{}
     .snsWrap>ul>li:last-child{}

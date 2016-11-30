@@ -16,11 +16,27 @@ body{}
 	#gnb li:hover{}
 	#gnb li>a{font-size: 1.3rem; color: #fff;}
 	.search button{background-color: transparent;}
-	.search button>i{font-size: 1.3em; color: #fff;}
+	.search button>i{font-size: 1.3em; color: #fff; font-weight: bold;}
 
 /* #addBanner ------------------------------------------ */
 #addBanner{transition: all 0.3s; background-color: #f84;}
-
+  .btn{width: 100%; height:0; position: absolute; z-index: 500; top: 50%; margin-top: -100px; left: 0;}
+  .btn>button:hover{color: #f99800;}
+  .lbtn{float: left; width:100px; height:200px; font-size:3rem; background-color: transparent; color: #fff;}
+  .rbtn{float: right; width:100px; height:200px; font-size:3rem; background-color: transparent; color: #fff;}
+  .bannerBox{/* width: 400%; */ height: 100%; /* margin-left: -100%; */ background-color: #ccc;}
+  .bannerBox>li{/* width:calc(100% / 4); */ height: 100%; float: left;  box-sizing:border-box;  
+      /* padding: 4rem;  */font-size: 3rem; color:#0af; text-align: center; line-height: 200px;}
+  .banner_1{background-color: #dd9;}
+  .banner_2{background-color: #daa;}
+  .banner_3{background-color: #d97;}
+  .banner_4{background-color: #ddd;}
+  .indicate{width: 25rem; height: 1.25rem; position: absolute; bottom: 1.875rem; left: 50%; margin-left: -135px;}
+  .indicate>li{width: 1.25rem; height: 20px; background-color:#fff; border-radius:0.625rem; float: left; margin-left: 30px; text-align: center; 
+     cursor: pointer; transition:all 0.5s;}
+  .indicate>li span{width: 0;height: 0; display: block; overflow: hidden;}
+  .indicate>li:hover{background-color: #f99800; }
+  .indicate>li.indWidth{width:60px; }
 
 
 /* #contentBox_01 ------------------------------------------*/
@@ -83,7 +99,7 @@ body{}
 /* #videoWrap ------------------------------------------*/
 #videoWrap{width: 100%; background-color: #f84; transition: all 0.3s;}
 #videoWrap>h2{background-color: rgba(250,250,250,0.6); padding-top: 50px;}
-#videoWrap>h2>img{}
+#videoWrap>h2>img{width: inherit;}
 
 /* #mapWrap ------------------------------------------*/
 #mapWrap{width: 100%; background-color: #5df;}
@@ -105,13 +121,21 @@ body{}
 
 
 /* #footBox ------------------------------------------*/
-#footWrap{width: 100%; background-color: #022939; padding: 30px 0.9375rem; box-sizing: border-box; float: left;}
-#footWrap dt{margin-bottom: 20px;}
-#footWrap dd{font-size: 0.8rem; margin-bottom: 5px;}
+#footWrap{width: 100%;  background-color: #022939; padding: 30px 0.9375rem; box-sizing: border-box; float: left;  font-size: 0.9rem;}
+#footWrap dt{margin-bottom: 20px; font-weight: bold;}
+#footWrap dd{font-size: 0.9rem; margin-bottom: 5px;}
 #footWrap dd:last-child{margin-bottom: 0;}
+.footBox{width: 960px;  margin: 0 auto; background-color: #222;}
+.footBox>div{float: left;}
+.localWrap>form{}
+.localWrap fieldset{}
+.localWrap legend{width: 0; height: 0; overflow: hidden; display: block;}
+.localWrap label{width: 100%; float: left; margin-bottom: 20px; font-weight: bold;}
+.localWrap select{float: left;}
 	.snsWrap>ul{ box-sizing: border-box;}
-	.snsWrap>ul>li{float: left; background-color: #6a6a6a; border-radius: 50%; margin-right: 12px;}
+	.snsWrap>ul>h3{width: 100%;float: left;}
+	.snsWrap>ul>li{float: left; background-color: #6a6a6a; border-radius: 50%; margin-right: 12px; }
 	.snsWrap>ul>li:last-child{margin-right: 0;}
 	.snsWrap i{width:2rem; height: 2rem; color: #fff; text-align: center; line-height: 2rem; font-size: 1rem;}
 	address{}
-	address>p{color: #fff; font-size: 0.8rem;}
+	address>p{color: #fff; }

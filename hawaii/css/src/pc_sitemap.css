@@ -20,7 +20,7 @@
   .brdadcrumb>li{float: left; margin-right: 10px;}
   .brdadcrumb>li:last-child{margin-right: 0;}
   .brdadcrumb>li>a{}
-  .brdadcrumb i{margin-right: 10px;}
+  .brdadcrumb i{margin-right: 10px; font-weight: bold;}
 
 /* #descWrap ------------------------------------------*/
   #descWrap{width: 100%; height: auto;}
@@ -29,7 +29,7 @@
   #descWrap dl>dt{width: inherit; height: 30px; margin-bottom: 20px; font-size: 1.5rem; border-left: 4px solid #f99800; box-sizing: border-box; 
     text-indent: 12px; }
   #descWrap dl>dd{width: 350px;  margin-right: 110px;}
-  #descWrap i{float: left; margin-left: 10px; margin-right: 15px;color: #f99800;}
+  #descWrap i{float: left; margin-left: 10px; margin-right: 15px;color: #f99800; font-weight: bold;}
   #descWrap ul{margin-top: 10px;}
 
   .aboutBox{height: 300px;}
@@ -62,14 +62,3 @@
 
 /* aside ---------------------------------------------*/
 
-
-/* #footbox -------------------- */	
-	#footWrap{width:100%; height:15.625rem; }
-	.footBox{width: 960px; margin: 0 auto; border: 1px solid #ffd;}
-	.footBox>div{float: left; margin-right: 15px;}
-    .otherWrap{width: 200px; height: 100px; background-color: #8dd;}
-    .infoWrap{width: 200px; height: 100px; background-color: #8dc;}
-    .langWrap{width: 8rem; height: 3rem; background-color: #8da;}
-    .snsWrap{width: 8rem; height: 3rem; background-color: #5dd; float: left;}
-    address{width: 100%; height: 40px; border-top: 1px solid #fff; float: left; background-color:rgba(0,0,0,0.5); margin-top: 30px;}
-    address>p{}

@@ -15,6 +15,7 @@
     .cateWrap{width: 100%; height: auto; float: left;}
     .cateWrap>p{}
 
+
     .cateBox{width: 100%; height: auto;}
     .cateBox>ul{width: 50%; height: 520px;  float: left; padding: 2rem 0.9375rem; margin-bottom: 30px;
       box-sizing:border-box;}

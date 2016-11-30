@@ -23,7 +23,7 @@
   .brdadcrumb i{margin-right: 10px;}
 
 /* #descWrap ------------------------------------------*/
-  #descWrap{height: 100%;}
+  #descWrap{height: auto;}
     .descBox{width: 960px; height:100%; }
     .inquiryBox{width: 70%; height: auto; float: left; margin-top: 20px;}
     .inquiryBox>p{width: 100%; height: 1.5rem;  /* text-indent: 10px; */}
@@ -82,15 +82,4 @@
 
     .snb{width: 30%; height: 500px; float: right;}
 
-
-/* #footbox -------------------- */	
-	#footWrap{width:100%; height:15.625rem; }
-	.footBox{width: 960px; margin: 0 auto; border: 1px solid #ffd;}
-	.footBox>div{float: left; margin-right: 15px;}
-    .otherWrap{width: 200px; height: 100px; background-color: #8dd;}
-    .infoWrap{width: 200px; height: 100px; background-color: #8dc;}
-    .langWrap{width: 8rem; height: 3rem; background-color: #8da;}
-    .snsWrap{width: 8rem; height: 3rem; background-color: #5dd; float: left;}
-    address{width: 100%; height: 40px; border-top: 1px solid #fff; float: left; background-color:rgba(0,0,0,0.5); margin-top: 30px;}
-    address>p{}
 }

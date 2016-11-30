@@ -1,6 +1,6 @@
 /* pc_accom.css */
 @media screen and (min-width:1024px){
-  .conBox{width: 70%; height: auto; float: left; margin-top: 20px; background-color: #dd9; padding: 0 0.9375rem; box-sizing: border-box;}
+  .conBox{}
   .conBox>img{width: 100%; height: 350px; background-color: #789; margin-bottom: 3rem;}
   .conBox>p{margin-bottom: 1.25rem;}
 }

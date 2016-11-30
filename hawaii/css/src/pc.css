@@ -14,23 +14,8 @@
 
 /* #addBanner ------------------------*/
 	#addBanner{width: 100%; height: 50rem;  margin: 0 auto; position: relative; /* overflow: hidden; */}
-    .btn{width: 100%; height:0; position: absolute; z-index: 500; top: 50%; margin-top: -100px; left: 0;}
-    .lbtn{float: left; width:100px; height:200px; font-size:3rem; background-color: transparent; color: #fff;}
-    .rbtn{float: right; width:100px; height:200px; font-size:3rem; background-color: transparent; color: #fff;}
-    .bannerBox{/* width: 400%; */ height: 100%; /* margin-left: -100%; */ background-color: #ccc;}
-    .bannerBox>li{/* width:calc(100% / 4); */ height: 100%; float: left;  box-sizing:border-box;  
-      /* padding: 4rem;  */font-size: 3rem; color:#0af; text-align: center; line-height: 200px;}
-      .banner_1{background-color: #dd9;}
-      .banner_2{background-color: #daa;}
-      .banner_3{background-color: #d97;}
-      .banner_4{background-color: #ddd;}
 
-    .indicate{width: 25rem; height: 1.25rem; position: absolute; bottom: 1.875rem; left: 50%; margin-left: -135px;}
-    .indicate>li{width: 1.25rem; height: 20px; background-color:#fff; border-radius:0.625rem; float: left; margin-left: 30px; text-align: center; 
-     cursor: pointer; transition:all 0.5s;}
-    .indicate>li span{width: 0;height: 0; display: block; overflow: hidden;}
-    .indicate>li:hover{background-color: #f99800; }
-    .indicate>li.indWidth{width:60px; }
+
 
 /* #contentBox_01 ------------------------------------------*/
   #contentBox_01{}
@@ -90,12 +75,14 @@
 	#contentBox_03>ul>li{width:25%; height: 15.625rem; float: left;}
 
 /* #footbox -------------------- */	
-	#footWrap{width:100%; height:15.625rem; }
-	.footBox{width: 960px; margin: 0 auto; border: 1px solid #ffd;}
-	.footBox>div{float: left; margin-right: 15px;}
-    .otherWrap{width: 200px; height: 100px; background-color: #8dd;}
-    .infoWrap{width: 200px; height: 100px; background-color: #8dc;}
-    .langWrap{width: 8rem; height: 3rem; background-color: #8da;}
-    .snsWrap{width: 8rem; height: 3rem; background-color: #5dd; float: left;}
+	#footWrap{width:100%; height:18.75rem; }
+  .footBox{height:100%; height: 8rem;}
+  .footBox>div{/*float: left; margin-right: 15px;*/}
+	.footBox>div{width: calc(100% / 3 );  float: left;}
+
+    .otherWrap{ height: 100%; background-color: #8dd;}
+    .infoWrap{ height: 100%; background-color: #8dc;}
+    .localWrap{ height: 50%; background-color: #8da; }
+    .snsWrap{ height: 50%; background-color: #5dd; }
     address{width: 100%; height: 40px; border-top: 1px solid #fff; float: left; background-color:rgba(0,0,0,0.5); margin-top: 30px;}
     address>p{}

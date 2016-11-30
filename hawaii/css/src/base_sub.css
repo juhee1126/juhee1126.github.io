@@ -13,7 +13,7 @@ body{}
 .brdadcrumb i{color: #fff; margin-right: 10px;}
 
 /* #descWrap ------------------------------------------*/
-#descWrap{width: 100%; padding: 50px 0px; box-sizing: border-box; transition: all 0.3s;}
+#descWrap{width: 100%; height: auto; padding: 50px 0px; box-sizing: border-box; transition: all 0.3s;}
 .descBox{border-top: 2px solid #f6f6f6; margin: 0 auto;}
 
   .cateWrap{margin:2rem 0 3rem; }
@@ -36,20 +36,20 @@ body{}
     .cateDesc>p{width: 100%;}      
     .cateBtn{}
     .cateBtn>a{width: 100%}
-    .cateBtn>a>i{color: #f99800; margin-left: 10px;}
+    .cateBtn>a>i{color: #f99800; margin-left: 10px; font-weight: bold;}
 
     .cateBtn>a:hover i{transform:translate3d(0,0,0); opacity:1; animation:translateArr 1s ease;} 
 
 
-
+.conBox{width: 70%; height: auto; float: left; margin: 1.25rem 0 10rem; padding: 0 0.9375rem; box-sizing: border-box;}
 
 
 
 /* snb -----------------------------------------------------------*/
-.snb{width: 30%; height: 100%; background-color: #9da; float: right; padding:15px 12px; margin-top: 20px; box-sizing: border-box;}
+.snb{width: 30%; height: 100%; /*background-color: #9da;*/ float: right; padding:15px 12px; margin-top: 20px; box-sizing: border-box;}
 .snb dt{font-size: 1.2rem; margin-bottom: 20px; color: #555;}
 .snb dd{font-size: 0.9rem; margin-bottom: 10px;}
-.snb dd i{float: left; margin-left: 10px; margin-right: 15px; color: #f99800;}
+.snb dd i{float: left; margin-left: 10px; margin-right: 15px; color: #f99800; font-weight: bold;}
 .snb dd>a{line-height: inherit;}
 .snb dd>a:hover{color: #f99800; transition: all 0.5s; }
 .snb dd>a:hover i{transform:translate3d(0,0,0); opacity:1; animation:translateArr 1s ease;}
