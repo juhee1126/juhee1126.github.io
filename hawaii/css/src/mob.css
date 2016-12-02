@@ -24,11 +24,11 @@
   .commonTitle>h2{font-size: 1.5rem;}
   .commonTitle>p{}
 
-	#contentBox_01>ul{width: 180px;  margin: 0 auto;}
-	#contentBox_01>ul>li{}
-	#contentBox_01 a{}
-	#contentBox_01 img{width: 180px; height: 180px;}
-
+  .contentIcon{}
+  .contentIcon>ul{width: 200px; height: 200px;		margin: 0 auto;	}
+  .contentIcon>ul>li{}
+  .contentIcon a{}
+  .contentIcon img{}
 
 
 /* #tipsWrap ------------------------------------------*/
@@ -41,7 +41,7 @@
   #contentBox_02>ul>li{width: 100%; height: 9.375rem; margin-bottom: 10px; background-color: #ddc; box-sizing: border-box; 
   	position: relative;}
   #contentBox_02>ul>li:last-child{margin-bottom: 0;}
-  #contentBox_02 img{display: block; width: 100%; height: 100%;}
+  #contentBox_02 img{display: block; width: 100%; height: 90%;}
   #contentBox_02 .hover{ }
   #contentBox_02 .conboxTit{}
 

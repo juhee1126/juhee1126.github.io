@@ -16,17 +16,17 @@
 	#addBanner{width: 100%; min-height:40rem; height: 83.333333vw; box-sizing: border-box; padding:0 2.8125rem; }
 
 /* #contentBox_01 ------------------------------------------*/
-  #contentBox_01{}
-  .commonTitle{width: calc(100% - 30px); height: 100px; text-align:center; margin: 0 auto;}
+  #contentBox_01{height:50rem;}
+  .commonTitle{width: 100%; height: 100px; text-align:center; margin: 0 auto;}
   .commonTitle>h2{}
   .commonTitle>p{}
 
-  #contentBox_01{ background-color: #f9d;}
-	#contentBox_01>ul{width: calc(100% - 30px); height: 30rem; padding: 1.25rem; box-sizing: border-box; }
-	#contentBox_01>ul>li{/*width: 11.25rem;*/min-width: 9.375rem; width: 23.4375vw; height: 11.25rem; float: left; margin-right: 11rem; }
-	#contentBox_01>ul>li:last-child{margin-right: 0;}
-  #contentBox_01 a{ background-color: #888;}
-  #contentBox_01 img{}
+  .contentIcon{width: calc(100% - 30px);}
+  .contentIcon>ul{min-width: 12.5rem; width: 26.041666vw; height: 250px; float: left;}
+  .contentIcon>ul>li{}
+  .contentIcon a{}
+  .contentIcon img{}
+
 
 
 /* #tipsWrap ------------------------------------------*/
@@ -36,7 +36,7 @@
 
 /* #contentBox_02 ------------------------------------------*/
   #contentBox_02{width: 100%; height: 61.25rem;}
-  #contentBox_02>ul{width: calc(100% - 30px); margin-top: 50px; border: 1px solid #333;}
+  #contentBox_02>ul{width: calc(100% - 30px); height: auto;  margin-top: 50px; border: 1px solid #333;}
   #contentBox_02>ul>li{background-color: #ddc; box-sizing: border-box; border-bottom: 1px solid #333; position: relative; float: left;}
   #contentBox_02>ul>li:first-child{width: 100%; height: 300px; margin-bottom: 10px;}	
   #contentBox_02>ul>li:nth-child(2){margin-bottom: 10px;}
@@ -72,7 +72,7 @@
   .footBox{width: 100%; height: 100%; background-color: #399;}
     .otherWrap, .infoWrap, .localWrap{display: none;}
     .snsWrap{width: 100% ; height: auto; background-color: #392; float: left;}
-    .snsWrap>ul{background-color: #989;  margin: 0 auto;}
+    .snsWrap>ul{background-color: #989; }
     .snsWrap>ul>h3{display: none;}
     .snsWrap>ul>li{}
     .snsWrap>ul>li:last-child{}
