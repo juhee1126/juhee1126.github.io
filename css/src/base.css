@@ -1,0 +1,6 @@
+/* base.css */
+#headBox{background-color: #29292c;}
+#headBox>h1{background-color: #fff;}
+#headBox a{color: #fff;}
+#headBox>nav span{width: 0; height: 0;display: none;}
+#content{background-color: #4787be;}

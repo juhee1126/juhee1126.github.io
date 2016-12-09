@@ -1,0 +1,8 @@
+/* pc.css */
+#headBox{width: 10%; height: 100%; float: left;}
+#headBox>h1{width: 100px; height: 100px; }
+#headBox>nav{margin-top: 220px;}
+
+
+
+#content{width: 90%; height: 100%; float: left;}
