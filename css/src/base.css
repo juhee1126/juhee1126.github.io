@@ -1,6 +1,34 @@
 /* base.css */
+<<<<<<< HEAD
+/* header ------------------------------------------------- */
+#headBox{background-color: #29292c;}
+#headBox>h1{}
+#headBox a{color: #fff;}
+#navigation span{width: 0; height: 0;display: none;}
+.gnb a{text-transform: uppercase;}
+/* article ------------------------------------------------- */
+#main{background-color: #4787be;}
+#banner{}
+
+/* section ------------------------------------------------- */
+
+
+
+
+
+
+/* contact ------------------------------------------------- */
+.conInfo{}
+.snsBox{}
+.inquiryBox{}
+
+
+
+/* footer ------------------------------------------------- */
+=======
 #headBox{background-color: #29292c;}
 #headBox>h1{background-color: #fff;}
 #headBox a{color: #fff;}
 #headBox>nav span{width: 0; height: 0;display: none;}
 #content{background-color: #4787be;}
+>>>>>>> origin/master
