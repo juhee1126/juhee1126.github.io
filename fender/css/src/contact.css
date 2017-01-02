@@ -1,0 +1,56 @@
+/*contact.css*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{overflow-x: hidden;background-color:#101010}
+h1{display:none;}
+#menu{display:none;}
+
+/*header-----------*/
+.content{width: 100%; height: auto;}
+	
+/*contact map*/
+#contact{width: 100vw;min-height:35rem ; height: 80vh;position: relative;}
+.map{width: 100%;height:80%;background-size: contain; background-repeat: no-repeat; background-position: center;position: absolute; top: 30%}
+
+.map svg{min-width: 60rem;width:100%;height: 100%;}
+#contact .map svg g circle{opacity: 0.3;}
+#contact .map svg g .red{opacity: 1;}
+.map svg .btn{cursor: pointer;}
+.map svg #ukBtn{cursor: pointer;}
+.map svg #ukBtn{cursor: pointer;}
+.map svg #spptBtn{cursor: pointer;}
+.map svg #frBtn{cursor: pointer;}
+.map svg #gerBtn{cursor: pointer;}
+.map svg #scaBtn{cursor: pointer;}
+.map svg #headquarterBtn{cursor: pointer;}
+.map dt{width: auto;height: 1.25rem;line-height: 1.25rem;position: absolute; display: none;top:50%;left: 50%;}
+.map dt button{width: auto;height: 1.25rem;line-height: inherit;background-color: #fff;color: #111;font-size: 1rem;text-indent: 0.5rem;box-sizing: border-box;padding-right: 0.3rem;line-height: 1.25rem;font-family: 'Open Sans', sans-serif;}
+.map dd{ display: none;width: 20rem;white-space:pre-line;height: auto;position: absolute; background-color:#fff;box-sizing: border-box;padding: 0.8rem;top:50%;left: 50%;font-family: 'Open Sans', sans-serif;font-size: 0.85rem}
+.map dd i{margin-right: 0.3rem;}
+.map dd .fa-phone-square{font-size: 1rem;}
+.map dd span {font-weight: bold}
+.map dd button{width: 6rem;height: 1.5rem;background-color: #c20c0c; color: #fff;font-family: 'Open Sans', sans-serif;float: right;margin-top: 1rem;}
+dt + dd::after{content: " ";display: block;width: 1.2rem;height: 1.2rem;position: absolute;top: 0;margin-top: -0.6rem;background-color: #fff;transform: rotate(45deg);left: 2rem;}
+
+.headquarter {margin-top: -3rem;margin-left: -35rem;}
+.headquarter + dd{margin-top: 0.75rem;margin-left: -35rem;}
+
+.uk {margin-top: -7rem;margin-left: -18rem;}
+.uk + dd{margin-top: -3.75rem;margin-left: -18rem;}
+.eastern {margin-top: -9rem;margin-left: -18rem;}
+.eastern + dd{margin-top: -5.75rem;margin-left: -18rem;}
+.fr {margin-top: -3rem;margin-left: 1rem;}
+.fr + dd{margin-top: 1.75rem;margin-left: 1rem;}
+.sppt{margin-top: -4rem;margin-left: -15rem;}
+.sppt + dd{margin-top: -0.75rem;margin-left: -15rem;}
+.sca {margin-top: -8rem;margin-left:3rem;}
+.sca + dd{margin-top: -4.75rem;margin-left:3rem;}
+.ger {margin-top: -5.5rem;margin-left: 3rem;}
+.ger + dd{margin-top: -1.25rem;margin-left: 3rem;}
+
+.headquarterBtn{display: none;}
+.ukBtn{display: none;}
+.frBtn{display: none;}
+.spptBtn{display: none;}
+.scaBtn{display: none;}
+.gerBtn{display: none;}

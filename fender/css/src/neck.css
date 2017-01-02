@@ -1,0 +1,56 @@
+/* neck.css */
+/*#neckTitleBox*/
+	#neckTitleBox{width:26.302083vw;
+                height:9.791666vw;
+                margin-left:11.458333333vw;
+                background-repeat: no-repeat; 
+                background-size:40%;
+                background-image: url("../../img/title/svg/neckTitle.svg"); 
+                position:absolute; 
+                top:20%; 
+                left:6%;
+                display:none;}
+
+/*#neckTextBox------------------------------------*/
+
+	#neckTextBox{width:31.25rem; 
+               margin-left:11.458333333vw; 
+               position:absolute; 
+               bottom:15%; 
+               left: 6%;
+               display:none;}
+	#neckTextBox>ul{width: 100%; 
+                  height: auto; 
+                  margin-bottom: 0.625rem;
+                  position: relative; 
+                  top: 0; 
+                  left: 0;}
+	
+  #neckTextBox>ul:last-child{margin-bottom: 0;}
+	#neckTextBox>ul>li{height:2.2rem; 
+                     font-size: 1.610541vw; 
+                     text-indent: 0.732064vw; 
+                     line-height: 2rem; 
+                     padding: 0.219619vw 0; 
+                     box-sizing: border-box;
+	                   background-color: #fff;}
+
+  #neckTextBox>ul>li:nth-of-type(1){z-index: 500; }
+	.neckText_01>li:nth-of-type(1){width: 16.837481vw;}
+    .neckText_02>li:nth-of-type(1){width: 9.516837vw;}
+    .neckText_03>li:nth-of-type(1){width: 21.229868vw;}
+    .neckText_04>li:nth-of-type(1){width: 15.373352vw;}
+    .neckText_05>li:nth-of-type(1){width: 16.105417vw;}
+    .neckText_06>li:nth-of-type(1){width: 13.909224vw;}
+
+  #neckTextBox>ul>li:nth-of-type(2){position: absolute; 
+                                   top: 0; 
+                                   left: 0; 
+                                   background-color: #c20c0c; 
+                                   color: #fff;}
+  	.neckText_01>li:nth-of-type(2){width: 25.622254vw;}
+    .neckText_02>li:nth-of-type(2){width: 12.445095vw;}
+    .neckText_03>li:nth-of-type(2){width: 14.641288vw;}
+    .neckText_04>li:nth-of-type(2){width: 12.445095vw;}
+    .neckText_05>li:nth-of-type(2){width: 15.373352vw;}
+    .neckText_06>li:nth-of-type(2){width: 17.569546vw;}

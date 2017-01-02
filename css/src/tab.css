@@ -1,0 +1,7 @@
+/* tab.css */
+/* header ------------------------------------------------- */
+#headBox{width: 10%; min-width: 80px; height: 100%; float: left; padding: 20px; box-sizing: border-box;}
+#headBox>h1{}
+#navigation{}
+#navigation i{}
+.gnb{}

@@ -1,0 +1,23 @@
+/*body.css*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+#bodyBox{width: 100vw;height: 100vh;box-sizing: border-box;padding: 20vh 50vw 12vh 22vw}
+
+#bodyBox .bodyBox{width: 30%;height: 60%;/*box-sizing: border-box;border: 1px solid #fff;*/ position: absolute;top: 20%;left: 6%;margin-left: 11.258333vw;}
+
+
+
+#bodyBox .bodyName{width: 29.84375vw;
+				  height:10.3125vw ;
+				  display:none;
+				  /*box-sizing: border-box;border:1px solid #fff;*/
+				  background-image: url(../../img/title/svg/BodyTitle.svg);
+				  background-size:40%;
+				  background-position: top left; 
+				  background-repeat: no-repeat;}
+#bodyBox .bodyText{display:none/*box-sizing: border-box;border:1px solid #fff;*/width:100%;height: 65%;overflow: hidden;}
+
+#bodyBox .bodyText ul{width: 100%;height: auto;margin-top: 9rem;margin-left: -100%;}
+#bodyBox .bodyText li{width: 200%;height: 3rem;line-height: 3rem;position: relative;margin-left:-50%;z-index:1500;}
+#bodyBox .bodyText span{width:auto;font-size: 1.66666vw;;padding:0 2.5rem 0.2rem 0.8rem;font-family: 'Open Sans', sans-serif;margin-left:50%;color: #fff;background-color: #fff;}
+#bodyBox .bodyText div{height: 3rem;background-color: transparent;position: absolute;top: 0;left: 50%;z-index: 200}

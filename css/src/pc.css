@@ -1,0 +1,87 @@
+/* pc.css */
+/* header ------------------------------------------------- */
+#headBox{width: 10%; height: 100%; float: left; padding: 20px; box-sizing: border-box;}
+#headBox>h1{width: 50px; height: 50px; font-size: 2rem; font-family: 'Yellowtail', cursive; color: #fff;}
+#navigation{margin-top: 220px;}
+#navigation i{width: 0; height: 0; display: none;}
+.gnb{width: 100%; height: 100%;}
+.gnb>li{width: 100%; height: 100%; margin-bottom: 10px;}
+.gnb>li:last-child{margin-bottom: 0;}
+
+
+/* article ------------------------------------------------- */
+#main, #content{width: 90%; height: 100%; float: left;}
+#banner{width: 40%; height: 100%; background-color: #998; float: left;}
+.mapImg>img{background-size: 100%;}
+
+
+/* section ------------------------------------------------- */
+section{width: 100%; height: 100%; padding: 50px; padding-top: 80px; padding-bottom: 0; box-sizing: border-box; float: left; }
+section>h2{height: 2.5rem; font-size: 1.5rem; margin-bottom: 60px; position: relative; line-height: 2; 
+	text-transform: uppercase;}
+section>h2::after{content: ""; display: block; width: 30px; height: 2px; background-color: #4787be; position: absolute; left: 0; top: 0;}
+
+/* main ---------------------------------------------------- */
+.mainImg{width: 40%; height: 100%; float: left;}
+section.mainTxt{width: 50%; height: 50%; float: right; margin-top: 25%; box-sizing: border-box; }
+.mainTxt>h3{font-size: 2rem; color: #fff;}
+.mainTxt>p{margin-top: 15px; }
+
+/* about ---------------------------------------------------- */
+section.resumeWrap{height: 100%; }
+.resumeBox{width: 100%; height: 400px; }
+.resumeBox>li{width: calc(50% - 30px); background-color: #888; height: 100%; float: left; background-repeat: no-repeat; margin-right: 30px;}
+/*.resume_1{background-image: url("../../img/resume_1.jpg"); }
+.resume_2{background-image: url("../../img/resume_2.jpg");}*/
+
+
+/* work ---------------------------------------------------- */
+.workWrap{}
+.workWrap>li{width: calc(50% - 30px); height: 250px; background-color: #dd7; margin-right: 30px; float: left;  }
+.workWrap figure{width: 100%; height: 100%; margin: 0; position: relative; overflow: hidden; cursor: pointer;}
+.workWrap figure>img{width: 100%; height: 100%; display: block; position: relative;}
+.workWrap figcaption{width: 100%; height: 60px; padding: 10px; box-sizing: border-box; opacity: 0; position: absolute; top: auto; 
+	bottom: 0; left: 0;  background-color: #29292c; transform: translateY(100%); transition: transform 0.4s, opacity 0.1s 0.3s;}
+.workWrap figcaption>h3{margin: 0; padding: 0; color: #fff;}
+.workWrap figcaption>span{color:; font-size: 0.8rem;}
+.workWrap figcaption>a{text-align: center; /* background-color: #29292c; */background-color: #4787be;padding: 2px 10px; position: absolute; bottom: 10px; right: 10px;
+	border-radius: 2px; color: #fff;}
+
+.workWrap figure:hover figcaption{transform: translateY(0px);
+	transition: transform 0.4s, opacity 0.1s; opacity: 1;}
+
+
+
+/* contact ------------------------------------------------- */
+section.contactWrap{width: 50%;}
+.conInfo{width: 50%; height: 80px; float: left;}
+.conInfo>li{margin-bottom: 5px;}
+.snsBox{width: 50%; height: 80px;  float: left;}
+.snsBox>li{width: 40px; height: 40px; float: left; margin-right: 10px; }
+.snsBox>li>a{width: 100%; height: 100%; background-color: #ddd; display: block; text-align: center; border-radius: 50%;}
+.snsBox i{font-size: 1.5rem; line-height: 1.5; color: #fff;}
+
+.inquiryBox{width: 100%; height: 250px; margin-top: 40px; float: left;}
+.inquiryWrite{}
+
+form{width: 100%; height: 100%;}
+legend, label{width: 0; height: 0; display: block; overflow: hidden;}
+input, textarea{width: 100%; height: 100%; background-color: transparent; border-bottom: 2px solid #d1d3d4; }
+
+
+.inquiryWrite>li{width: calc(50% - 10px); height:30px; float: left; margin-right: 20px; }
+.inquiryWrite>li:last-of-type{width: 100%; height: 60px; margin-right: 0; margin-top: 10px;}
+.inquiryWrite>li:nth-of-type(2), .inquiryWrite>li:nth-of-type(4){margin-right: 0;}
+.inquiryWrite>li:first-of-type, .inquiryWrite>li:nth-of-type(2){margin-bottom: 10px;}
+textarea{text-indent: 5px; resize:none;}
+.inquiryWrite input:hover, textarea:hover{border-bottom: 2px solid #4787b4; transition: all 0.5s;}
+
+.sendBtn{width: 300px; margin-top: 50px; float: left;}
+.sendBtn>li{width: 100px; height: 30px; float: left;  margin-right: 20px; }
+.sendBtn input{text-transform: uppercase; border-radius: 20px;}
+input[type="submit"]{border: 2px solid #4787b4;}
+input[type="submit"]:hover{background-color: #4787b4; color: #fff; border: 0; transition: all 0.5s;}
+/*input[type="reset"]{border: 2px solid;}*/
+
+/* footer ------------------------------------------------- */
+#footBox{width: 0; height: 0; display: none;}

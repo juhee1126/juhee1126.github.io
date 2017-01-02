@@ -1,0 +1,68 @@
+/*popup.css*/
+
+	.popupBox{width: 100%;
+            height: 100%; 
+            position: fixed; 
+            z-index:1000; 
+            background-color:rgba(0,0,0,0.8); 
+		        top: 0; 
+            left: 0;
+            display: none;}
+	
+  .pop_banner{width: 35rem; 
+              height: 22.5rem; 
+              background-color: #242527; 
+              background-color: #161616;
+              background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+		          box-shadow:0.0625rem 0.0625rem 0.0625rem rgba(250,250,250,0.2); 
+              top: 50%; 
+              left: 50%;
+		          margin-left: -17.5rem; 
+              margin-top:-11.25rem; 
+              z-index: 300; 
+              position:relative; 
+              box-sizing:border-box; 
+              padding:1.5rem 1rem;}
+
+	.pop_banner>p{width:100%;
+                height: 2rem; 
+                font-size: 1.2rem; 
+                color: #fff; 
+                text-indent: 0.3125rem;}
+
+  .pop_banner>form{margin-top: 1.25rem;}
+  .pop_banner legend, .pop_banner label{width:0; 
+                                        height:0; 
+                                        overflow: hidden; 
+                                        display: block;}
+
+  .pop_banner input, textarea{font-size: 1rem; 
+                              background-color: #222; 
+                              color: #fff;}
+  #userName,#userMail{width: 100%; 
+                      height: auto; 
+                      padding: 0.1875rem 0.125rem; 
+                      box-sizing: border-box; 
+                      margin-bottom: 0.625rem;}
+
+  #message{width:100%;
+           height: 8.125rem; 
+           padding: 0.1875rem 0.125rem; 
+           text-indent: 0.3125rem; 
+           box-sizing: border-box; 
+           margin-bottom: 1.25rem; resize:none;}
+
+  .send_btn{float: right;}
+  .send_btn>input{width: 6.25rem; 
+                  height: 1.875rem; 
+                  line-height: 2; 
+                  text-align: center;}
+  .send_btn>input:hover{transition: all 250ms linear; 
+                        text-decoration: none; 
+                        box-shadow: 0.0625rem 0.0625rem 0.125rem rgba(255,255,255,0.2); 
+  	                    background-color: transparent;}
+  input[type="submit"]{margin-right: 1.25rem;
+                       background-color: #c20c0c; 
+                       background-image: url("https://www.transparenttextures.com/patterns/pinstriped-suit.png");}
+
+
