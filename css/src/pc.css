@@ -20,7 +20,7 @@ section>h2::after{content: ""; display: block; width: 30px; height: 2px; backgro
 
 /* main ---------------------------------------------------- */
 .mainImg{width: 40%; height: 100%; float: left;}
-section.mainTxt{width: 50%; height: 50%; float: right; margin-top: 25%; box-sizing: border-box; }
+section.mainTxt{width: 35%; height: 40%; float: right; margin-top: 25%; box-sizing: border-box; }
 .mainTxt>h3{font-size: 2rem; color: #fff;}
 .mainTxt>p{margin-top: 15px; }
 
