@@ -2,7 +2,7 @@
 <html lang="ko-KR">
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta charset="UTF-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
   <!-- reset/normalize -->
   <link rel="stylesheet" href="./css/bin/reset.css">
@@ -24,13 +24,13 @@
     <script src="ie/PIE/PIE_IE678.js"></script>
     <script src="ie/Respond/src/respond.js"></script>
   <![endif]-->
-	<title>contact</title>
+  <title>contact</title>
   <style></style>
   <script></script>
 </head>
 <body>                      
   <header id="headBox">
-    <h1>site</h1>
+    <h1>Jh</h1>
     <nav id="navigation">
       <a href="#"><i class="fa fa-bars" aria-hidden="true"></i><span>menu</span></a>
       <ul class="gnb">
@@ -45,53 +45,47 @@
   <article id="content">
     <section class="contactWrap">
       <h2>contact</h2>
-      <ul class="conInfo">
-        <li>+82 010 9297 4160</li>
-        <li><a href="index.html">juhee1126.github.io</a></li>
-        <li>jhee9297@naver.com</li>
-      </ul>
-      <ul class="snsBox">
-        <li>
-          <a href="#" target="_blank">
-            <i class="fa fa-facebook" aria-hidden="true"></i>
-            <span class="hidden">facebook</span>
-          </a>
-        </li>
-        <li>
-          <a href="#" target="_blank">
-            <i class="fa fa-instagram" aria-hidden="true"></i>
-            <span class="hidden">instagram</span>
-          </a>          
-        </li>
-        <li>
-          <a href="#" target="_blank">
-            <i class="fa fa-youtube" aria-hidden="true"></i>
-            <span class="hidden">youtube</span>
-          </a>          
-        </li>
-      </ul>
+      <div class="conInfo">
+        <h3>Contact Directly</h3>
+        <ul>
+          <li>+82 010 9297 4160</li>
+          <li>jhee9297@naver.com</li>
+        </ul>
+      </div>
       <div class="inquiryBox">
         <form action="" method="post">
           <legend>문의하기</legend>
+            <ul class="inquiryRead">
+              <li>
+                <label for="userName">Name</label>
+              </li>
+              <li>
+                <label for="userCompany">Company</label>
+              </li>
+              <li>
+                <label for="userNumber">Phone Number</label>
+              </li>
+              <li>
+                <label for="userMail">Email</label>
+              </li>
+              <li>
+                <label for="message">Message</label>
+              </li>
+            </ul>
             <ul class="inquiryWrite">
               <li>
-                <label for="userName">이름을 입력하세요</label>
                 <input type="text" name="y_Name" id="userName" value="" placeholder="Name" required="required">
               </li>
-              <li>
-                <label for="userNumber">전화번호를 입력하세요</label>
-                <input type="tel" name="y_number" id="userNumber"  value="" placeholder="Tell Number" required="required">
-              </li>
-              <li>
-                <label for="userMail">메일를 입력하세요</label>
-                <input type="email" name="y_Email" id="userMail" value="" placeholder="Email" required="required">
-              </li>
-              <li>
-                <label for="userCompany">회사를 입력하세요</label>
+              <li>    
                 <input type="text" name="y_Company" id="userCompany" value="" placeholder="Company" required="required">
               </li>
               <li>
-                <label for="message">내용을 입력하세요</label>
+                <input type="tel" name="y_number" id="userNumber"  value="" placeholder="Phone" required="required">
+              </li>
+              <li> 
+                <input type="email" name="y_Email" id="userMail" value="" placeholder="Email" required="required">
+              </li>
+              <li>  
                 <textarea name="message" id="message" placeholder="Message"></textarea>
               </li>
             </ul>
@@ -100,18 +94,14 @@
                 <label for="inquirySend" class="hidden">내용을 전달하겠습니다</label>
                 <input type="submit" name="inquirySend" value="send" id="inquirySend">
               </li>
-<!--               <li>
-                <label for="inquiryReset" class="hidden">작성을 취소하겠습니다.</label>
-                <input type="reset" name="inquiryReset" value="cancel" id="inquiryCancel"> 
-              </li> -->
             </ul>
         </form>
       </div>
     </section>   
   </article>
 
-  <footer id="footBox" >
-<!--     <address>copy</address> -->
+  <footer id="footBox">
+    <address>&copy;2016, All Rights Reserved.</address>
   </footer>
 
 <!-- jQuery -->

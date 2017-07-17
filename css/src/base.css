@@ -1,5 +1,6 @@
 /* base.css */
 /* header ------------------------------------------------- */
+html{background-color: #29292c;}
 #headBox{background-color: #29292c;}
 #headBox>h1{}
 #headBox a{color: #fff;}
