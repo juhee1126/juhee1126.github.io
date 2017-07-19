@@ -65,16 +65,16 @@ section.workDes{ padding: 0;}
 
 /* contact ------------------------------------------------- */
 section.contactWrap{background-color: #fff; height: 100%;}
-section.contactWrap>h2{margin-bottom: 50px;}
+section.contactWrap>h2{margin-bottom: 80px;}
 .conInfo{width: 100%; height: 50px; float: left; font-size: 1rem; border-bottom: 1px solid #d1d3d4; margin-bottom: 80px;}
 .conInfo>h3{width: 250px; float: left; font-style: italic; /*font-size: 1.2rem;*/}
 .conInfo>ul{width: 50%; height: 30px; float: left;}
-.conInfo>ul>li{float: left; margin-right: 80px;}
-.conInfo i{margin-right: 10px;}
+.conInfo>ul>li{float: left; margin-right:90px;}
+.conInfo i{margin-right: 15px;}
 
 
-.inquiryBox{width: 750px; height: 250px; float: left;}
-.inquiryRead{width: 300px; float: left; background:}
+.inquiryBox{width: 700px; height: 250px; float: left;}
+.inquiryRead{width: 250px; float: left; background:}
 .inquiryRead>li{height: 30px; margin-bottom: 10px;}
 .inquiryWrite{width: 450px; float: left;}
 
