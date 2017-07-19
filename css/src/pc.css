@@ -33,9 +33,9 @@ section.resumeWrap>h2{margin-bottom: 50px;}
 .resume_2{background-image: url("../../img/resume_2.jpg");}
 
 /* work ---------------------------------------------------- */
-article#content{background-color: #fff;}
-section.workWrap{width: 100%;height: 100%;  height: auto;}
-.workBox>li{width: 500px; height: 300px; margin-right: 80px; float: left;}
+article#content{background-color: #fff; height: 100%;}
+section.workWrap{width: 100%;height: auto;}
+.workBox>li{width: 450px; height: 300px; margin-right: 80px; float: left;}
 .workBox>li:nth-of-type(3n){margin-right: 0;}
 .workBox figure{width: 100%; height: 100%; margin: 0; position: relative; overflow: hidden; }
 .workBox figure>img{width: 100%; height: 100%; display: block; position: relative;}
@@ -48,7 +48,7 @@ section.workWrap{width: 100%;height: 100%;  height: auto;}
 .workBox figure:hover figcaption{transform: translateY(0px);
 	transition: transform 0.4s, opacity 0.1s; opacity: 1;}
 
-.workBtn{width: 100%; height: 20%; float: left; text-align: center; padding-top: 20px; box-sizing: border-box;}
+.workBtn{width: 100%; height: 100px; float: left; text-align: center; padding-top: 100px; box-sizing: border-box;}
   .workBtn>button[type=button]{width:100px; height:30px; background-color: transparent; border-radius: 20px;
   	text-transform: uppercase; border: 2px solid #4787b4; margin-right: 20px; }
   .workBtn>button[type=button]:last-child{margin-right: 0;} 	
