@@ -10,7 +10,7 @@
 
 
 /* article ------------------------------------------------- */
-#main, #content{width: 90%; height: 100%; float: left;}
+#main, #content{width: 90%;  height: 100%; float: left;}
 
 
 /* section ------------------------------------------------- */
@@ -20,7 +20,7 @@ section>h2::after{content: ""; display: block; width: 30px; height: 2px; backgro
 
 /* main ---------------------------------------------------- */
 .mainImg{width: 40%; height: 100%; float: left;}
-section.mainTxt{width: 35%; height: 40%; float: right; margin-top: 25%; box-sizing: border-box; }
+section.mainTxt{width: 630px; height: 40%; float: right; margin-top: 30%; box-sizing: border-box; }
 .mainTxt>h3{font-size: 2rem; color: #fff;}
 .mainTxt>p{margin-top: 15px; }
 
@@ -28,14 +28,14 @@ section.mainTxt{width: 35%; height: 40%; float: right; margin-top: 25%; box-sizi
 section.resumeWrap{height: auto; background-color: #fefefe;}
 section.resumeWrap>h2{margin-bottom: 50px;}
 .resumeBox{width: 100%; height: 800px; }
-.resumeBox>li{width: 50%; height: 100%; float: left; background-size: contain; background-repeat: no-repeat; margin-bottom: 30px;}
+.resumeBox>li{width: 45%; height: 100%; float: left; background-size: contain; background-repeat: no-repeat; margin-bottom: 30px;}
 .resume_1{background-image: url("../../img/resume_1.jpg"); }
 .resume_2{background-image: url("../../img/resume_2.jpg");}
 
 /* work ---------------------------------------------------- */
 article#content{background-color: #fff;}
-section.workWrap{height: 80%; }
-.workBox>li{width: calc(33.333333% - 30px); height: 250px; margin-right: 30px; float: left;}
+section.workWrap{width: 100%;height: 100%;  height: auto;}
+.workBox>li{width: 500px; height: 300px; margin-right: 80px; float: left;}
 .workBox>li:nth-of-type(3n){margin-right: 0;}
 .workBox figure{width: 100%; height: 100%; margin: 0; position: relative; overflow: hidden; }
 .workBox figure>img{width: 100%; height: 100%; display: block; position: relative;}
@@ -59,15 +59,19 @@ section.workWrap{height: 80%; }
   .rbtn>i{float: right; margin-right: 10px;}
 
 
-section.workDes{ background-color: #dd8;padding: 0;}  
+section.workDes{ padding: 0;}  
 .workDes>h2{width: 0; height: 0; display: none;}
 .workDes>img{width: 100%; height: auto;}
 
 /* contact ------------------------------------------------- */
+section.contactWrap{background-color: #fff; height: 100%;}
 section.contactWrap>h2{margin-bottom: 50px;}
-.conInfo{width: 600px; height: 40px; float: left; font-size: 0.8rem; border-bottom: 1px solid #d1d3d4; margin-bottom: 60px;}
+.conInfo{width: 100%; height: 50px; float: left; font-size: 1rem; border-bottom: 1px solid #d1d3d4; margin-bottom: 80px;}
 .conInfo>h3{width: 250px; float: left; font-style: italic; /*font-size: 1.2rem;*/}
-.conInfo>ul{width: 250px; float: left;}
+.conInfo>ul{width: 50%; height: 30px; float: left;}
+.conInfo>ul>li{float: left; margin-right: 50px;}
+.conInfo i{margin-right: 10px;}
+
 
 .inquiryBox{width: 600px; height: 250px; float: left; }
 .inquiryRead{width: 250px; float: left;}
