@@ -28,7 +28,7 @@ section.mainTxt{width: 630px; height: 40%; float: right; margin-top: 30%; box-si
 section.resumeWrap{height: auto; background-color: #fefefe;}
 section.resumeWrap>h2{margin-bottom: 50px;}
 .resumeBox{width: 100%; height: 800px; }
-.resumeBox>li{width: 45%; height: 100%; float: left; background-size: contain; background-repeat: no-repeat; margin-bottom: 30px;}
+.resumeBox>li{width: 600px; height: 100%; float: left; margin-right: 50px; background-size: contain; background-repeat: no-repeat; margin-bottom: 30px;}
 .resume_1{background-image: url("../../img/resume_1.jpg"); }
 .resume_2{background-image: url("../../img/resume_2.jpg");}
 
