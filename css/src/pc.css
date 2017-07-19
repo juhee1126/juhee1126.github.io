@@ -69,14 +69,14 @@ section.contactWrap>h2{margin-bottom: 50px;}
 .conInfo{width: 100%; height: 50px; float: left; font-size: 1rem; border-bottom: 1px solid #d1d3d4; margin-bottom: 80px;}
 .conInfo>h3{width: 250px; float: left; font-style: italic; /*font-size: 1.2rem;*/}
 .conInfo>ul{width: 50%; height: 30px; float: left;}
-.conInfo>ul>li{float: left; margin-right: 50px;}
+.conInfo>ul>li{float: left; margin-right: 80px;}
 .conInfo i{margin-right: 10px;}
 
 
-.inquiryBox{width: 600px; height: 250px; float: left; }
-.inquiryRead{width: 250px; float: left;}
+.inquiryBox{width: 750px; height: 250px; float: left;}
+.inquiryRead{width: 300px; float: left; background:}
 .inquiryRead>li{height: 30px; margin-bottom: 10px;}
-.inquiryWrite{width: 350px; float: left;}
+.inquiryWrite{width: 450px; float: left;}
 
 form{width: 100%; height: 100%;}
 legend{width: 0; height: 0; display: block; overflow: hidden;}
@@ -84,10 +84,10 @@ input, textarea{width: 100%; height: 100%; background-color: transparent; border
 
 .inquiryWrite>li{width: 100%; height:30px; float: left; margin-bottom: 10px;}
 .inquiryWrite>li:last-of-type{width: 100%; height: 80px; margin-top: 10px;}
-textarea{text-indent: 5px; resize:none; padding-top: 5px; box-sizing: border-box;}
+textarea{height: 100px;text-indent: 5px; resize:none; padding-top: 5px; box-sizing: border-box;}
 .inquiryWrite input:hover, textarea:hover{border: 1px solid #4787b4; transition: all 0.5s;}
 
-.sendBtn{width: 100%; margin-top:50px; float: left; }
+.sendBtn{width: 100%; margin-top:80px; float: left; }
 .sendBtn>li{width: 100px; height: 30px; float: right; }
 .sendBtn input{text-transform: uppercase; border-radius: 20px;}
 input[type="submit"]{border: 2px solid #4787b4;}
